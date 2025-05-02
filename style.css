@@ -6,7 +6,7 @@ html{
 }
 
 h2, h4, p{
-  margin:0
+  margin:0;
 }
 
 *,*:before, *:after{
@@ -14,7 +14,7 @@ h2, h4, p{
 }
 
 body{
-  padding : 100px
+  padding : 100px;
 }
 
 #card{
@@ -87,7 +87,7 @@ body{
   font-weight: 700;
   font-size: 16px;
   transition-duration: 0.3s;
-  cursor:pointer
+  cursor:pointer;
 }
 
 #prize{
@@ -96,7 +96,7 @@ body{
 }
 
 #prize, #price-frequency{
-  display: inline-block
+  display: inline-block;
 }
 
 #price-frequency{
@@ -112,7 +112,7 @@ body{
 }
 
 #price-container{
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 #sub-box p {
@@ -121,7 +121,7 @@ body{
 
 #signup-btn:hover{
   background-color: rgb(177, 191, 111);
-  transform: scale(0.98)
+  transform: scale(0.98);
     
 }
 
