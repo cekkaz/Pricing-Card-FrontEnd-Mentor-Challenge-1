@@ -1,0 +1,131 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size : 16px;
+  font-weight: 400;
+}
+
+h2, h4, p{
+  margin:0
+}
+
+*,*:before, *:after{
+  box-sizing:inherit;
+}
+
+body{
+  padding : 100px
+}
+
+#card{
+  width : 700px;
+  height: 400px;
+  box-shadow: 0px 3px 7px 1px rgba(0,0,0,0.29);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+#welcome-box{
+  width: 100%;
+  height: 45%;
+  padding: 30px;
+}
+
+#card-bottom{
+  width: 100%;
+  height: 60%;
+  display: flex;
+}
+
+#sub-box{
+  display: inline-block;
+  width: 50%;
+  heigth: 100%;
+  vertical-align: top;
+  background-color: #2ab2af;
+  color: #e5eff5;
+  padding:30px;
+}
+
+#why-box{
+  display: inline-block;
+  width : 50%;
+  heigth: 100%;
+  vertical-align: top;
+  background-color: rgba(42, 178, 175, 0.65);
+  padding:30px;
+}
+
+#welcome-box h2{
+  color: #2ab2af;
+  margin-bottom: 25px;
+}
+
+#welcome-box h4{
+  color: #c0df34;
+  margin-bottom: 10px;
+    
+}
+
+#welcome-box p{
+  color: #98a6bd;
+}
+
+#why-box{
+  color:#e5eff5;
+}
+
+#signup-btn{
+  background-color:#c0df34;
+  border: #c0df34;
+  border-radius: 10px;
+  color : #e5eff5;
+  padding: 20px;
+  width: 100%;
+  heigth: 10%;
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 16px;
+  transition-duration: 0.3s;
+  cursor:pointer
+}
+
+#prize{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+#prize, #price-frequency{
+  display: inline-block
+}
+
+#price-frequency{
+  position:relative;
+  top: -3px;
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-left: 5px;
+}
+
+#sub-box h4{
+  margin-bottom:10px;
+}
+
+#price-container{
+  margin-bottom: 10px
+}
+
+#sub-box p {
+  font-size:0.8rem;
+}
+
+#signup-btn:hover{
+  background-color: rgb(177, 191, 111);
+  transform: scale(0.98)
+    
+}
+
+ul{
+  padding:0;
+  list-style: none;
+}
